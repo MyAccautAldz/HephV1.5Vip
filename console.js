@@ -1772,7 +1772,7 @@ await client.sendMessage(m.chat, {
       reply("Succes Send Bug")
  }
 break
-case 'hephforce-v1':{
+case 'hephforce-v2':{
 if (!isCreator & !isPremium) return reply(mess.prem)
 if (!q) return reply(`Syntax Error\nKetik: ${prefix + command} 62xxx`)
 let pepec = q.replace(/[^0-9]/g, "")
